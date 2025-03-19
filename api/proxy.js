@@ -1,7 +1,7 @@
 import https from 'https';
 
 export default async function handler(req, res) {
-  const url = 'https://skypractice.xyz:25622/api' + req.url;
+  const url = 'https://skypractice.xyz:25622/api';
 
   https.get(url, (response) => {
     let data = '';
